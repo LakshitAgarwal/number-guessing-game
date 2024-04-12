@@ -1,0 +1,98 @@
+/* Enhanced and more interactive styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.badaCont {
+    max-width: 800px;
+    margin: 140px auto;
+    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 38px;
+    color: #333;
+}
+
+.upCont {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.myForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp {
+    padding: 14px;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 220px;
+    background-color: #f9f9f9;
+}
+
+#sub {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sub:hover {
+    background: linear-gradient(135deg, #45a049, #357e36);
+}
+
+.nechCont {
+    text-align: center;
+}
+
+.prev {
+    font-weight: bold;
+    color: #666;
+}
+
+.rem {
+    font-weight: bold;
+    color: #e53935;
+}
+
+.disp {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #555;
+}
+
+.again {
+    color: #1565c0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.again:hover {
+    text-decoration: underline;
+}
+
+.rules {
+    font-size: 12px;
+    color: #888;
+    padding-bottom: 20px;
+}
