@@ -31,6 +31,7 @@ function chkInp(inp) {
 }
 function validation(i) {
   if (i === randNum) {
+    input.setAttribute("disabled", "");
     displayMessage(
       `Congratulations You guessed it right. Random number was ${randNum}`
     );
